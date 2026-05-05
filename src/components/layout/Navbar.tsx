@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Container } from "./Container";
+import { cn } from "@/lib/utils";
 
 const links = [
   { to: "/", label: "Home" },
@@ -43,8 +44,10 @@ export function Navbar() {
             <Link
               key={l.to}
               to={l.to}
-              className="relative text-sm uppercase tracking-[0.2em] text-foreground/80 transition-colors hover:text-gold-deep"
-              activeProps={{ className: "text-gold-deep" }}
+              className={cn(
+                "relative text-sm uppercase tracking-[0.2em] text-foreground/80 transition-colors hover:text-gold-deep"
+              )}
+              activeProps={{ className: cn("text-gold-deep font-medium") }}
             >
               {l.label}
             </Link>
