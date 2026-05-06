@@ -16,14 +16,14 @@ export type Product = {
 };
 
 export const products: Product[] = [
-  { id: "1", name: "Lakshmi Temple Necklace", category: "Bridal", price: "On request", image: p1 },
-  { id: "2", name: "Pearl Jhumka Earrings", category: "Bridal", price: "₹ 48,500", image: p2 },
-  { id: "3", name: "Antique Bangle Stack", category: "Premium Gold", price: "₹ 2,15,000", image: p3 },
-  { id: "4", name: "Solitaire Drop Pendant", category: "Diamond", price: "₹ 86,000", image: p4 },
-  { id: "5", name: "Halo Solitaire Ring", category: "Diamond", price: "₹ 1,24,000", image: p5 },
-  { id: "6", name: "Floral Bridal Haram", category: "Bridal", price: "On request", image: p6 },
-  { id: "7", name: "Minimal Gold Chain", category: "Daily Wear", price: "₹ 18,500", image: p7 },
-  { id: "8", name: "Classic Gold Hoops", category: "Daily Wear", price: "₹ 22,000", image: p8 },
+  { id: "1", name: "Lakshmi Temple Necklace", category: "Bridal", image: p1 },
+  { id: "2", name: "Pearl Jhumka Earrings", category: "Bridal", image: p2 },
+  { id: "3", name: "Antique Bangle Stack", category: "Premium Gold", image: p3 },
+  { id: "4", name: "Solitaire Drop Pendant", category: "Diamond", image: p4 },
+  { id: "5", name: "Halo Solitaire Ring", category: "Diamond", image: p5 },
+  { id: "6", name: "Floral Bridal Haram", category: "Bridal", image: p6 },
+  { id: "7", name: "Minimal Gold Chain", category: "Daily Wear", image: p7 },
+  { id: "8", name: "Classic Gold Hoops", category: "Daily Wear", image: p8 },
 ];
 
 export const categories = ["All", "Bridal", "Daily Wear", "Premium Gold", "Diamond"] as const;

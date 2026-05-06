@@ -33,7 +33,7 @@ export function Footer() {
             <h4 className="text-xs uppercase tracking-[0.3em] text-gold-deep">Visit Us</h4>
             <ul className="mt-5 space-y-3 text-sm text-muted-foreground">
               <li className="flex gap-2"><MapPin className="h-4 w-4 text-gold mt-0.5 shrink-0" /> 24, Ranganathan Street,<br />T. Nagar, Chennai – 600017</li>
-              <li className="flex gap-2"><Phone className="h-4 w-4 text-gold shrink-0" /> +91 98765 43210</li>
+              <li className="flex gap-2"><Phone className="h-4 w-4 text-gold shrink-0" /> +91 8870853812</li>
               <li className="flex gap-2"><Mail className="h-4 w-4 text-gold shrink-0" /> care@rathinjewellers.com</li>
             </ul>
           </div>

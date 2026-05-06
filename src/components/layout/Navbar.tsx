@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Container } from "./Container";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/logo.png";
 
 const links = [
   { to: "/", label: "Home" },
-  { to: "/shop", label: "Shop" },
-  { to: "/collections", label: "Collections" },
+  { to: "/shop", label: "Collections" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
 ] as const;
@@ -30,13 +30,16 @@ export function Navbar() {
       }`}
     >
       <Container className="flex h-20 items-center justify-between">
-        <Link to="/" className="group flex flex-col leading-none">
-          <span className="font-serif text-2xl tracking-wide text-foreground">
-            Rathin
-          </span>
-          <span className="mt-0.5 text-[10px] uppercase tracking-[0.35em] text-gold">
-            Jewellers
-          </span>
+        <Link to="/" className="group flex items-center gap-3 leading-none">
+          <img src={logo} alt="Rathin Jewellers Logo" className="h-12 w-12 object-contain" />
+          <div className="flex flex-col">
+            <span className="font-luxury text-3xl md:text-4xl tracking-tighter text-foreground">
+              Rathin
+            </span>
+            <span className="mt-0.5 text-[11px] uppercase tracking-[0.1em] text-gold">
+              Jewellers
+            </span>
+          </div>
         </Link>
 
         <nav className="hidden items-center gap-10 md:flex">

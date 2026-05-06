@@ -18,8 +18,8 @@ export const Route = createFileRoute("/contact")({
 });
 
 const items = [
-  { icon: MapPin, label: "Visit", value: "24, Ranganathan Street\nT. Nagar, Chennai – 600017" },
-  { icon: Phone, label: "Call", value: "+91 98765 43210" },
+  { icon: MapPin, label: "Visit", value: "24, Ranganathan Street,\nT. Nagar, Chennai – 600017" },
+  { icon: Phone, label: "Call", value: "+91 8870853812" },
   { icon: Mail, label: "Email", value: "care@rathinjewellers.com" },
   { icon: Clock, label: "Hours", value: "Mon – Sat · 10:30 AM – 8:30 PM" },
 ];

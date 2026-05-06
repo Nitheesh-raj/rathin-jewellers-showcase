@@ -113,6 +113,7 @@
 @layer utilities {
   .font-serif { font-family: var(--font-serif); }
   .font-tamil { font-family: var(--font-tamil); }
+  .font-luxury { font-family: "Playfair Display", "Cormorant Garamond", Georgia, serif; font-weight: 600; }
   .text-gradient-gold {
     background: var(--gradient-gold);
     -webkit-background-clip: text;

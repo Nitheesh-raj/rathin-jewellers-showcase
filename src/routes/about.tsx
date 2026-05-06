@@ -19,9 +19,9 @@ function About() {
     <section className="py-20">
       <Container>
         <SectionTitle
-          eyebrow="Est. 1962"
-          title="A Legacy in Gold"
-          subtitle="Four generations. Six decades. One unwavering devotion to craftsmanship."
+          eyebrow="Est. 2026"
+          title="Crafted for Excellence"
+          subtitle="A new chapter in premium jewellery. Timeless design meets contemporary elegance."
         />
 
         <div className="mx-auto max-w-3xl space-y-8 text-base leading-loose text-muted-foreground">
@@ -29,30 +29,24 @@ function About() {
             பொன் அல்ல… ஒரு உணர்வு.
           </p>
           <p>
-            Rathin Jewellers began in 1962 as a small workshop in the heart of Chennai —
-            a single artisan, a flame, and a quiet promise to never compromise on purity
-            or craft. Today, that same flame still burns in our atelier, kept alive by
-            the great-grandchildren of our founder.
+            Rathin Jewellers opened in 2026 with a singular vision — to craft jewellery that transcends trends.
+            With expert artisans and a commitment to purity, we bring you pieces that celebrate life's most precious moments.
           </p>
           <p>
-            Every piece that leaves our doors carries the weight of that promise. From
-            the elaborate temple necklaces worn by brides on their most sacred day, to
-            the delicate gold chains worn quietly under everyday silks — we believe
-            jewellery is not metal. It is memory, made eternal.
+            Every piece that leaves our atelier is a testament to craftsmanship, passion, and an unwavering commitment to excellence.
+            From elaborate bridal sets to everyday elegance — we believe jewellery is not simply metal. It is memory, made eternal.
           </p>
           <p>
-            We are honoured to have adorned over 50,000 families across South India, and
-            to have been entrusted with their most precious moments. Thank you for letting
-            us be a small part of your story.
+            Thank you for choosing Rathin Jewellers. We are honored to be a part of your story.
           </p>
         </div>
 
         <div className="mt-20 grid gap-10 border-y border-border py-14 md:grid-cols-4 text-center">
           {[
-            ["1962", "Founded"],
-            ["50K+", "Families Served"],
-            ["22K", "Hallmark Gold"],
-            ["4", "Generations"],
+            ["2026", "Founded"],
+            ["100%", "Hallmark Gold"],
+            ["22K", "Premium Purity"],
+            ["∞", "Timeless Beauty"],
           ].map(([n, l]) => (
             <div key={l}>
               <p className="font-serif text-4xl text-gradient-gold">{n}</p>

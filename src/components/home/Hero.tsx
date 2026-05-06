@@ -42,7 +42,7 @@ export function Hero() {
         {/* LEFT */}
         <div className="relative z-10" style={{ animation: "fade-up 1s ease-out" }}>
           <p className="mb-6 text-xs uppercase tracking-[0.4em] text-gold">
-            Since 1962 · Heritage Jewellery
+            Est. 2026 · Premium Jewellery
           </p>
           <h1 className="font-serif text-5xl leading-[1.05] text-foreground md:text-6xl lg:text-7xl">
             Adornments of <span className="text-gradient-gold italic">Eternity</span>
@@ -72,11 +72,6 @@ export function Hero() {
           </div>
 
           <div className="mt-14 flex items-center gap-8 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-            <div>
-              <p className="font-serif text-3xl text-gold-deep normal-case tracking-normal">62+</p>
-              <p className="mt-1">Years of Trust</p>
-            </div>
-            <div className="h-10 w-px bg-border" />
             <div>
               <p className="font-serif text-3xl text-gold-deep normal-case tracking-normal">22K</p>
               <p className="mt-1">Hallmark Gold</p>
